@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(206, 223, 223);
+    
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh ;
+}
+
+.title {
+    margin-bottom: 30px;
+}
+
+
+.task-form {
+    margin-bottom: 30px;
+
+}
+
+.task-input {
+    margin-right: 10px;
+    padding: 10px;
+    background-color: aquamarine;
+    font-weight: bolder;
+
+}
+
+.register-button {
+    padding: 10px;
+    background-color: beige;
+    font-weight: bolder;
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-list li {
+    cursor: pointer;
+    margin-bottom: 5px;
+    position: relative;
+    line-height: 1.5;
+}
+
+.task-list li:before {
+    content: "\2022";
+    color: #0f0f0f;
+    font-size: 1.2em;
+    margin-right: 5px;
+    vertical-align: middle;
+    
+
+    
+}
+
+.completed {
+    text-decoration: line-through;
+
+}
